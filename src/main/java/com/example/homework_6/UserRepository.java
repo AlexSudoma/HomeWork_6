@@ -1,2 +1,9 @@
-package com.example.homework_6;public class UserRepository {
+package com.example.homework_6;
+
+@Component
+public class UserRepository {
+    public String getUsername() {
+        return "JohnDoe";
+    }
 }
+
